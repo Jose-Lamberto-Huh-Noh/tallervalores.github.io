@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jerarquía de Valores - Ortega y Gasset & Scheler</title>
+  <style>
+    /* Estilos generales */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #e8f0fe;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    h1 {
+      text-align: center;
+      color: #2b4f81;
+      margin-top: 20px;
+      font-size: 4em;
+    }
+    h2 {
+      color: #000000;
+      font-size: 2em;
+    }
+    .section {
+      padding: 20px;
+      margin: 20px auto;
+      width: 80%;
+      max-width: 1000px;
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    }
+
+    /* Primera sección (Jerarquía de Valores) */
+    .hierarchy-section {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .value-box {
+      padding: 15px;
+      border-radius: 8px;
+      background-color: #d1e9fe;
+      width: 45%;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .value-box:hover {
+      transform: scale(1.05);
+      background-color: #a4c8f0;
+    }
+    /*Cuadro azul fotos*/
+    .value-box2 {
+      padding: 15px;
+      border-radius: 8px;
+      background-color: #d1e9fe;
+      width: 95%;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    .value-box2:hover {
+      transform: scale(1.05);
+      background-color: #a4c8f0;
+    }
+
+
+
+    /* Segunda sección (Mapa Mental) */
+    .mind-map {
+      position: relative;
+      height: 500px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .mind-map img {
+      position: absolute;
+      width: 24%; /* Ajusta el tamaño al 15% del contenedor */
+      height: auto; /* Mantiene la proporción de la imagen */
+      border: 3px solid #2b4f81;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease;
+    }
+    .mind-map img:hover {
+      transform: scale(1.15);
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+    }
+    .center-text {
+      font-size: 1.9em;
+      font-weight: bold;
+      text-align: center;
+      color: #2b4f81;
+    }
+
+    /* Media Queries para adaptar el tamaño de las imágenes en dispositivos móviles */
+    @media (max-width: 768px) {
+      .mind-map img {
+        width: 25%; /* Aumenta el tamaño en pantallas más pequeñas */
+      }
+      .center-text {
+        font-size: 1.2em; /* Ajusta el tamaño del texto central */
+      }
+    }
+
+    @media (max-width: 480px) {
+      .mind-map img {
+        width: 40%; /* Aumenta el tamaño en dispositivos aún más pequeños */
+      }
+      .center-text {
+        font-size: 1.5em; /* Ajusta aún más el tamaño del texto */
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Título de la página -->
+  <h1>Jerarquía de Valores - Ortega y Gasset & Max Scheler</h1>
+
+  <!-- Primera sección: Información sobre jerarquía de valores -->
+  <div class="section hierarchy-section">
+    <div class="value-box">
+      <h2>José Ortega y Gasset</h2>
+      <p>Ortega y Gasset desarrolló una jerarquía de valores centrada en el "yo" y en cómo los individuos experimentan la realidad. Su teoría incluye los valores de lo vital, lo espiritual, y lo personal, con un enfoque en la autenticidad.</p>
+      <img src="Ortega.jpg" style="width: 50%;">
+    </div>
+    <div class="value-box">
+      <h2>Max Scheler</h2>
+      <p>Scheler propuso una jerarquía de valores que clasifica los valores en categorías: valores sensibles, valores vitales, valores espirituales, y valores de lo sagrado. Cada nivel refleja un orden ascendente hacia la espiritualidad y la moralidad.</p>
+      <img src="Max.jpeg" style="width: 50%;">
+    </div>
+  </div>
+
+  <div class="section hierachy-section">
+    <div class="value-box2">
+        <h2>Fotos durante la actividad del taller</h2>
+        <img src="Taller.jpg" style="width: 30%;">
+        <img src="Taller1.jpg" style="width: 30%;">
+        <img src="Taller2.jpg" style="width: 30%;">
+        <img src="Taller3.jpg" style="width: 30%;">
+        <img src="Taller9.jpg" style="width: 30%">
+        <img src="Taller5.jpg" style="width: 30%;">
+        <img src="Taller6.jpg" style="width: 30%;">
+        <img src="Taller7.jpg" style="width: 30%;">
+        <img src="Taller8.jpg" style="width: 30%;">
+    </div>
+</div>
+
+<div class="section hierachy-section">
+    <div class="value-box2">
+        <h2>Presentación de la actividad del taller</h2>
+        <img src="A1.jpg" style="width: 30%;">
+        <img src="B1.jpg" style="width: 30%;">
+        <img src="C1.jpg" style="width: 30%;">
+        <img src="D1.jpg" style="width: 30%;">
+        <img src="E1.jpg" style="width: 30%;">
+        <img src="F1.jpg" style="width: 30%;">
+        <img src="G.jpg" style="width: 30%;">
+    </div>
+</div>
+  <!-- Segunda sección: Mapa mental con 7 imágenes -->
+  <div class="section">
+    <div class="mind-map">
+      <div class="center-text">Frases a Max Scheler &<br>José Ortega y Gasset</div>
+      <!-- Distribución de las 7 imágenes alrededor del centro -->
+      <img src="A.jpg" style="top: 0%; left: 50%;">
+      <img src="B.jpg" style="top: 10%; left: 80%;">
+      <img src="C.jpg" style="top: 60%; left: 70%;">
+      <img src="D.jpg" style="top: 60%; left: 40%;">
+      <img src="E.jpg" style="top: 60%; left: 10%;">
+      <img src="F.jpg" style="top: 0%; left: 25%;">
+      <img src="G1.jpg" style="top: 10%; left: 0%;">
+    </div>
+  </div>
+
+</body>
+</html>
